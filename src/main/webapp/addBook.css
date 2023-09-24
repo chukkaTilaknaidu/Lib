@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* styles.css */
+
+/* Reset default browser margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    
+    min-height: 100vh;
+}
+.addbook{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the header */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Add Book container */
+.add-book-container {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%;
+   
+}
+
+/* Add Book form elements */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/*Style for dropdown*/
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    
+}
+
+/* Style the Add Book button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:50%;
+    margin-left: 25%;
+    font-weight: bolder;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

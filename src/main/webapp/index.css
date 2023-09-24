@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* Reset default browser margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the header */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Hero section styles */
+#hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Welcome message styles */
+.welcome-message {
+    margin-bottom: 40px;
+}
+
+.welcome-message h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.welcome-message p {
+    font-size: 1.2em;
+}
+
+/* Registration/Login boxes styles */
+.registration-login-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+}
+
+.box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Button style */
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

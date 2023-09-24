@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* styles.css */
+
+/* Reset default browser margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh; /* Ensure the content takes up at least the viewport height */
+}
+
+/* Style the header */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* Book management container */
+.studentBookManagement {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+}
+/*bookManagement*/
+.bookManagement{
+    width: 30%;
+
+
+}
+.bookManagement p{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Book management boxes */
+.book-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 10px;
+}
+div a{
+    text-decoration: none;
+    color: #007bff;
+}
+
+.book-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
